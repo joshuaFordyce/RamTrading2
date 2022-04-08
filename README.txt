@@ -1,7 +1,7 @@
 Original App Design Project - README Template
 ===
 
-# Ram Trading
+# Ram Trading 
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -11,7 +11,7 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-[Description of your app]
+A simplified app that creates a unique and visually interesting approach to looking at the stock market. The app offers the ability to create your own account in which you can save stocks 
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
@@ -27,41 +27,54 @@ Original App Design Project - README Template
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-
-* [fill in your required user stories here]
-* ...
+* Watchlist (all nested “for loops”)
+NASDAQ
+S&P500
+Technology 
+Financial 
+* Login Page
+*Stocks
+*News
 
 **Optional Nice-to-have Stories**
-
-* [fill in your required user stories here]
-* ...
+*Settings
+dark/light mode
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Home/Stocks Page
+   * Nested for loops
+   * data on stocks
+* Search Page
+   * Search Bar
+ * News
+  *Get news feed api to display
+ *Settings
+  *light/dark mode
+  *Contact us
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+*Home
+* Search
+* News
+* Settings
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
-
+* Ram Trading First Page (Home)
+   * Watchlist
+   * NASDAQ
+    * S&P500
+    * Technology 
+     *Financial 
+*Bottom bar
+   * Home page
+   * Search
+    * News
+   * Settings
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
@@ -78,3 +91,4 @@ Original App Design Project - README Template
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+
