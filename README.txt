@@ -83,12 +83,21 @@ dark/light mode
 
 ### [BONUS] Interactive Prototype
 
-## Schema 
-
 ### Models
-[Add table of models]
+
+| Property  |Type    |Description           |
+| ----------|--------|----------------------|
+| ObjectID  | String | Unique name for user |
+| Stock     |String  | Unique name for stock|
+|  Price    | Number |cost of stock         |
+| Title     |String  | tile of article      |
+|Caption    | String |caption of article    |
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+-  List of network requests by screen & Basic snippets for each Parse network request
+Stocks Screen
+	  (Read/GET) User sees stocks and price of stocks
+News Screen
+	  (Read/GET) User sees title and caption of news articles
+
 
