@@ -86,7 +86,7 @@ dark/light mode
 ### Models
 
 | Property  |Type    |Description           |
-| ----------|--------|----------------------|
+| --------- | ------ | -------------------- |
 | ObjectID  | String | Unique name for user |
 | Stock     |String  | Unique name for stock|
 |  Price    | Number |cost of stock         |
